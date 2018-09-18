@@ -15,5 +15,5 @@ output "public_key_filepath" {
 }
 
 output "private_key_filepath" {
-  value = "${local.public_key_filename}"
+  value = "${local.private_key_filename}"
 }
