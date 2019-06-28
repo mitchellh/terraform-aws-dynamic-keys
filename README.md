@@ -52,4 +52,4 @@ is destroyed (via `terraform destroy`).
 Terraform version
 -----------------
 
-Terraform version 0.11.0 or newer is required for this version to work.
+Terraform version 0.12.0 or newer is required for this version to work.
