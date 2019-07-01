@@ -1,3 +1,7 @@
+terraform {
+  required_version = ">= 0.12.0"
+}
+
 locals {
   public_key_filename  = "${var.path}/${var.name}.pub"
   private_key_filename = "${var.path}/${var.name}.pem"
